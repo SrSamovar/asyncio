@@ -70,3 +70,4 @@ async def add_person(person_id, person_data):
         session.add(new_person)
         await session.commit()
 
+
